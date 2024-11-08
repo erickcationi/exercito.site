@@ -1,0 +1,32 @@
+.body {
+    margin: 0;
+    top: 0;
+    border: 0;
+}
+
+
+.title {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+/*barra de navegação*/
+.barranavegacao {
+ display: block;
+ position: fixed;
+ background-color: #181C14;
+ flex-direction: row;
+}  
+
+.menu {
+    flex-direction: row;
+    float: left;
+}
+
+.lista{
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+}
