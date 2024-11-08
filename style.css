@@ -12,21 +12,29 @@
     justify-content: center;
 }
 
+.logonav {
+    float: right;
+
+}
+
+
+
 /*barra de navegação*/
 .barranavegacao {
- display: block;
  position: fixed;
- background-color: #181C14;
+ background-color: #3C3D37;
  flex-direction: row;
+ display: flex;
 }  
 
 .menu {
     flex-direction: row;
     float: left;
+    position: fixed;
 }
 
-.lista{
+.menu a{
     color: white;
-    text-align: center;
     font-size: 14pt;
+    text-align: center;
 }
