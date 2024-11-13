@@ -4,6 +4,23 @@
     border: 0;
 }
 
+/*barra de navegação*/
+.barranavegacao {
+ background-color: #3C3D37;
+ display: flex;
+}  
+
+.barranavegacao a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.barranavegacao ul{
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .title {
     font-size: 18pt;
@@ -17,26 +34,3 @@
 
 }
 
-
-
-/*barra de navegação*/
-.barranavegacao {
- position: fixed;
- background-color: #3C3D37;
- flex-direction: row;
- display: flex;
-}  
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    float: left;
-    position: fixed;
-}
-
-.menu a{
-    text-decoration: none;
-    color: white;
-    font-size: 14pt;
-    text-align: center;
-}
