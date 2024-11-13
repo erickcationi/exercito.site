@@ -13,6 +13,7 @@
 }  
 
 .barranavegacao a{
+    position: absolute;
     text-decoration: none;
     color: white;
     font-size: 9pt;
@@ -36,7 +37,6 @@
 }
 
 .banner1 {
-    justify-content: center;
-    display: flex;
     width: 100%;
+    display: flex;
 }
